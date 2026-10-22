@@ -21,15 +21,8 @@
 
 截图预览由 `image.thum.io` 即时生成，未托管在本站；加载失败时页面已有打开原站的降级提示。收藏仅保存在当前浏览器，不做跨设备同步。
 
-## 原站同步与发布
+## GitHub Pages 与原站发布
 
-GitHub 备份整理不触发部署。历史承接记录如下；当前同步摘要见 `github-sync.md`。未来用户要求修改线上体验时，按 Sites 技能的现行流程处理：
+GitHub Pages 与 Sites 主站是两套独立发布。Pages 工作流 `.github/workflows/pages.yml` 从 `main` 分支的 `site/dist/` 自动部署，入口为 `site/dist/index.html`。公开页面：https://paloma421-tong.github.io/chuangxiang-toolbox/。该 GitHub 仓库为公开状态，以满足 GitHub Free 的 Pages 限制；源代码与页面均可被互联网访问。详细说明见 `github-pages.md`。
 
-1. 读取 `site/.openai/hosting.json`，复用现有项目身份。调用 `get_site` 确认当前版本和受众；获取短期源码凭证，通过源代码助手打开原站。凭证只经 stdin 传入，不写入文件或命令参数。
-2. 核对远端是否已有新提交；若与本地分叉，先保留并协调修改，不强制覆盖。
-3. 完成修改并验证，使用源码助手同步精确源码和打包。静态页面无需构建命令。仅整理本地文档不需要部署。
-4. 按当时确认的受众保存与部署。此次核对为 `custom` 且仅所有者可访问，不能为了发布而改成公开。
-5. 用返回的部署结果确认完成，只有待处理状态才继续查询。记录新版本和源提交。
-
-不要重新创建同名站点；不要仅为备份整理而重复发布。早期版本记录仅用于追溯，后续操作前仍需读取当前状态。
-
+Sites 主站仍使用 `site/.openai/hosting.json` 中的原 project_id 和 Sites 源码助手。修改线上主站前，须单独确认当前版本和访问范围，通过 Sites 流程保存、部署；GitHub Pages 部署不会改变或发布到 Sites。

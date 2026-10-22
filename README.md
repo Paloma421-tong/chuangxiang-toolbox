@@ -4,7 +4,7 @@
 
 网站：https://chuangsai-compass-oct22.neatyak6.chatgpt.site/
 
-本次同步基线：2026-10-22，线上版本 16（由原任务提供），本地 Sites 源提交 `8627375ff497f1c859545047be1eaaf2d32cf11b`。此次同步 GitHub 备份，没有发布网站或修改访问权限。
+本次同步基线：2026-10-22，线上版本 16（由原任务提供），本地 Sites 源提交 `8627375ff497f1c859545047be1eaaf2d32cf11b`。GitHub Pages 镜像发布于 https://paloma421-tong.github.io/chuangxiang-toolbox/，来源为 `main` 分支的 `site/dist/`。页面公开访问；仓库源码也已公开以满足 GitHub Free 的 Pages 限制。原 Sites 站点及其访问设置独立维护。
 
 ## 当前内容
 
@@ -37,3 +37,4 @@
 GitHub 备份与 Sites 发布是两个流程。未来发布仍使用 Sites 技能、原 project_id 和源码助手：先确认原站最新状态，协调远端变化，再同步源码、打包与部署。GitHub 不配置自动部署，也不改变网站受众。详见 `docs/maintenance.md`。
 
 同步内容不含私人截图、小红书采集图片、临时 tar、缓存、凭据或 Git 凭据配置。历史发布文档中的旧版本仅作追溯；最新同步摘要见 `docs/github-sync.md`。
+
