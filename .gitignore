@@ -1,0 +1,13 @@
+node_modules/
+outputs/
+.cache/
+*.tar
+*.tar.gz
+*.zip
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

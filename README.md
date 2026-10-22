@@ -36,4 +36,3 @@
 GitHub 备份与 Sites 发布是两个流程。未来发布仍使用 Sites 技能、原 project_id 和源码助手：先确认原站最新状态，协调远端变化，再同步源码、打包与部署。GitHub 不配置自动部署，也不改变网站受众。详见 `docs/maintenance.md`。
 
 同步内容不含私人截图、小红书采集图片、临时 tar、缓存、凭据或 Git 凭据配置。历史发布文档中的旧版本仅作追溯；最新同步摘要见 `docs/github-sync.md`。
-
