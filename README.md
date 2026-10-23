@@ -4,11 +4,12 @@
 
 网站：https://chuangsai-compass-oct22.neatyak6.chatgpt.site/
 
-本次同步基线：2026-10-22，线上版本 16（由原任务提供），本地 Sites 源提交 `8627375ff497f1c859545047be1eaaf2d32cf11b`。GitHub Pages 镜像发布于 https://paloma421-tong.github.io/chuangxiang-toolbox/，来源为 `main` 分支的 `site/dist/`。页面公开访问；仓库源码也已公开以满足 GitHub Free 的 Pages 限制。原 Sites 站点及其访问设置独立维护。
+本次同步基线：2026-10-23，线上版本 17，本地 Sites 源提交 `47a1f67038f3ccabe3d3fc4e076d7237e1919f3c`。GitHub Pages 镜像发布于 https://paloma421-tong.github.io/chuangxiang-toolbox/，来源为 `main` 分支的 `site/dist/`。页面公开访问；仓库源码也已公开以满足 GitHub Free 的 Pages 限制。原 Sites 站点及其访问设置独立维护。
 
 ## 当前内容
 
-- 备赛步骤、工具箱、资源搜索与浏览器本地收藏。
+- 备赛步骤、工具箱（126 个资源入口）、资源搜索与浏览器本地收藏。
+- 2026-10-23 新增 33 项资源，细分环境与地理数据、企业与竞品、市场趋势、思维导图、海报与设计、问卷与表单、商标查询。
 - 首页“有个想法，然后呢？”提供备赛步骤、工具箱、小 tips 三个直接跳转入口。
 - 创想 tips：数据收集清洗与可视化、企业与实地调研、专利与软著。
 - 左侧贴边目录、绿色背景的白色小花 Logo。
@@ -34,7 +35,6 @@
 
 此目录是干净的 GitHub 同步副本，只有一层 Git 仓库。原工作区外层仓库及 `site/.git` 保持原状；禁止把嵌套仓库当作普通目录直接提交。
 
-GitHub 备份与 Sites 发布是两个流程。未来发布仍使用 Sites 技能、原 project_id 和源码助手：先确认原站最新状态，协调远端变化，再同步源码、打包与部署。GitHub 不配置自动部署，也不改变网站受众。详见 `docs/maintenance.md`。
+GitHub 备份与 Sites 发布是两个流程。未来发布仍使用 Sites 技能、原 project_id 和源码助手：先确认原站最新状态，协调远端变化，再同步源码、打包与部署。提交 main 后，GitHub Pages 与已关联的 Netlify 镜像自动部署 site/dist；原 Sites 的受众独立维护。Netlify：https://illustrious-phoenix-92a79b.netlify.app/ 。详见 `docs/maintenance.md`。
 
 同步内容不含私人截图、小红书采集图片、临时 tar、缓存、凭据或 Git 凭据配置。历史发布文档中的旧版本仅作追溯；最新同步摘要见 `docs/github-sync.md`。
-

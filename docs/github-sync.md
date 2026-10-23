@@ -1,13 +1,12 @@
 # GitHub 同步基线
 
-日期：2026-10-22。
+日期：2026-10-23。
 
-- Sites 源提交：`8627375ff497f1c859545047be1eaaf2d32cf11b`（已核对本地 site HEAD）。
-- 线上版本 16：本对话已成功发布；此次仅同步 GitHub，不重复部署。
-- 本次更新：首页三个白框改为网站使用入口，支持跳转到备赛步骤、工具箱和小 tips；保留原标题及配色。
-- 项目身份：`appgprj_6ad996ee9fe081919dc346f4931169ee`。
-- 页面及下载资源逐文件 SHA-256 与原工作区一致。
-- GitHub 同步采用独立快照，不携带原仓库历史和配置；原历史继续保留在原工作区的 site 仓库。
-- 扫描常见 GitHub/OpenAI 密钥、私钥、密码、API key 和 token 赋值模式，无命中；这不等同于穷尽式审计。
-- 用户已明确授权创建私有仓库 `Paloma421-tong/chuangxiang-toolbox` 并上传本快照。
-
+- Sites 源提交：`47a1f67038f3ccabe3d3fc4e076d7237e1919f3c`。
+- 线上版本 17 已发布；此次同步到 GitHub，并由现有配置自动部署 GitHub Pages、Netlify。
+- 新增 33 项工具，合计 126 项，新增分类与旧入口核对说明见 `toolbox-2026-10-23.md`。
+- 仓库：Paloma421-tong/chuangxiang-toolbox，公开；保持现有可见性。
+- GitHub Pages：https://paloma421-tong.github.io/chuangxiang-toolbox/
+- Netlify：https://illustrious-phoenix-92a79b.netlify.app/
+- 原 Sites 项目：`appgprj_6ad996ee9fe081919dc346f4931169ee`，访问设置独立维护。
+- 更新采用远端 main 最新提交为父提交，保留现有 Pages 工作流、Netlify 配置及其他文件。
