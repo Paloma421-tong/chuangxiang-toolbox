@@ -2,9 +2,9 @@
 
 日期：2026-10-23。
 
-- Sites 源提交：`47a1f67038f3ccabe3d3fc4e076d7237e1919f3c`。
-- 线上版本 17 已发布；此次同步到 GitHub，并由现有配置自动部署 GitHub Pages、Netlify。
-- 新增 33 项工具，合计 126 项，新增分类与旧入口核对说明见 `toolbox-2026-10-23.md`。
+- Sites 源提交：`c44c2f32ad938c407702d5c809cfbe9fa8f1302b`。
+- 线上版本 18 已发布；此次同步到 GitHub，并由现有配置自动部署 GitHub Pages、Netlify。
+- 当前 131 项资源。本轮新增 5 项并完善 2 项行业报告入口，见 `industry-reports-2026-10-23.md`；前一轮分类记录见 `toolbox-2026-10-23.md`。
 - 仓库：Paloma421-tong/chuangxiang-toolbox，公开；保持现有可见性。
 - GitHub Pages：https://paloma421-tong.github.io/chuangxiang-toolbox/
 - Netlify：https://illustrious-phoenix-92a79b.netlify.app/

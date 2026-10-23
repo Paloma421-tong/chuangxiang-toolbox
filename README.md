@@ -4,11 +4,13 @@
 
 网站：https://chuangsai-compass-oct22.neatyak6.chatgpt.site/
 
-本次同步基线：2026-10-23，线上版本 17，本地 Sites 源提交 `47a1f67038f3ccabe3d3fc4e076d7237e1919f3c`。GitHub Pages 镜像发布于 https://paloma421-tong.github.io/chuangxiang-toolbox/，来源为 `main` 分支的 `site/dist/`。页面公开访问；仓库源码也已公开以满足 GitHub Free 的 Pages 限制。原 Sites 站点及其访问设置独立维护。
+本次同步基线：2026-10-23，线上版本 18，本地 Sites 源提交 `c44c2f32ad938c407702d5c809cfbe9fa8f1302b`。GitHub Pages 镜像发布于 https://paloma421-tong.github.io/chuangxiang-toolbox/，来源为 `main` 分支的 `site/dist/`。页面公开访问；仓库源码也已公开以满足 GitHub Free 的 Pages 限制。原 Sites 站点及其访问设置独立维护。
 
 ## 当前内容
 
-- 备赛步骤、工具箱（126 个资源入口）、资源搜索与浏览器本地收藏。
+本轮补充行业报告入口：新增 5 项、完善已有 2 项。行业报告分类包含艾瑞、中国信通院、艾媒、CBNData、QuestMobile、中研网；清博按用途放在市场趋势。
+
+- 备赛步骤、工具箱（131 个资源入口）、资源搜索与浏览器本地收藏。
 - 2026-10-23 新增 33 项资源，细分环境与地理数据、企业与竞品、市场趋势、思维导图、海报与设计、问卷与表单、商标查询。
 - 首页“有个想法，然后呢？”提供备赛步骤、工具箱、小 tips 三个直接跳转入口。
 - 创想 tips：数据收集清洗与可视化、企业与实地调研、专利与软著。
